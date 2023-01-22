@@ -37,11 +37,13 @@ You can execute feature file in the IDE.
 
 * Page classes inherited from base class.
 
-* WebDriverManager is used for getting browser drivers. To get the screenshots of the failure cases, 
-you need to switch browser to Firefox. 
+* Three options are added to run the test automation about browsers:
+  * Chrome
+  * Firefox
+  * Headless
 
 * If programmer want to use this suite in ci/cd pipeline there is also headless browser option is added to code.
-All options are commented out for usage. 
+* Base class is used to handle the complexity of selenium commands and handle the expected conditions.
 
 ## Requirement of the test
 * Return policy for outside in Bol.com
