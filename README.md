@@ -1,4 +1,4 @@
-# BolAssıgnment
+# BolAssignment
 This repo is created to show subject below:
 
 * Test automation example for predefined scenarios for Bol.com
