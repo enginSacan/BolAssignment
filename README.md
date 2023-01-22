@@ -29,16 +29,19 @@ You can execute feature file in the IDE.
 
 ## Structure
 
-Lombok library is used for creating model of the data from properties files in the resources folder and product.
+* Lombok library is used for creating model of the data from properties files in the resources folder and product.
 
-Generic data structure is used with the properties. 
+* Generic data structure is used with the properties. 
 
-Page Object Oriented structure is used for the UI test.
+* Page Object Oriented structure is used for the UI test.
 
-Page classes inherited from base class.
+* Page classes inherited from base class.
 
-WebDriverManager is used for getting browser drivers. To get the screenshots of the failure cases, 
-you need to switch browser to Firefox. All options are commented out for usage. 
+* WebDriverManager is used for getting browser drivers. To get the screenshots of the failure cases, 
+you need to switch browser to Firefox. 
+
+* If programmer want to use this suite in ci/cd pipeline there is also headless browser option is added to code.
+All options are commented out for usage. 
 
 ## Requirement of the test
 * Return policy for outside in Bol.com

@@ -26,6 +26,14 @@ public class SetUpTeardownActions {
         if (driver == null) {
             driver = new ChromeDriver();
             //driver = new FirefoxDriver();
+
+            /*
+            ChromeOptions options=new ChromeOptions();
+            options.setHeadless(true);
+            options.addArguments("window-size=1920,1080");
+            driver = new ChromeDriver(options);
+             */
+
             driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
             driver.manage().window().maximize();
         }
