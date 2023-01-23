@@ -44,7 +44,7 @@ You can execute feature file in the IDE.
 
 * If programmer want to use this suite in ci/cd pipeline there is also headless browser option is added to code.
 * Base class is used to handle the complexity of selenium commands and handle the expected conditions.
-
+* 23 January I added Page Factory example for one class also from selenium support.
 ## Requirement of the test
 * Return policy for outside in Bol.com
 * Add/Remove Voucher in the card
