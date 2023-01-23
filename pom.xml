@@ -48,6 +48,11 @@
             <artifactId>webdrivermanager</artifactId>
             <version>5.3.0</version>
         </dependency>
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-support</artifactId>
+            <version>4.7.2</version>
+        </dependency>
     </dependencies>
 
 </project>

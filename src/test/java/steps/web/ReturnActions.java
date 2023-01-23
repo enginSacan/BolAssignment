@@ -6,6 +6,7 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
+import org.openqa.selenium.support.PageFactory;
 import steps.web.pages.*;
 
 
@@ -16,7 +17,7 @@ public class ReturnActions {
     Home homePage = new Home();
     Return returnPage = new Return();
     Login loginPage = new Login();
-    CustomerService customerServicePage = new CustomerService();
+    CustomerService customerServicePage = PageFactory.initElements(driver, CustomerService.class);;
     WarrantyRepair warrantyRepairPage = new WarrantyRepair();
     @Given("User opens web page")
     public void userOpensWebPage() {
